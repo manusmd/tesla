@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+    font-size: 0.8rem;
+}
+
+.navItemsWrapper{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.options{
+    display: flex;
+    gap: .5rem;
+}
