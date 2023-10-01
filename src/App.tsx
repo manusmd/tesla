@@ -6,7 +6,6 @@ const [textBlack, _setTextBlack] = useState(true)
   return (
     <>
         <Navigation textBlack={textBlack} />
-      <h1>App</h1>
     </>
   )
 }
