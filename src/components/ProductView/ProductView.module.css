@@ -1,0 +1,56 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.textBlack {
+    color: black;
+}
+
+.textWhite {
+    color: white;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    gap: 2rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: GothamMedium, serif;
+}
+
+.info {
+    font-family: GothamLight, serif;
+    font-size: 0.7rem;
+}
+
+.media {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+}
+
+.gradient{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    left:0;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.8435749299719888) , rgba(0,70,84,0) 37%, rgba(0,212,255,0) 100%);
+    z-index: -9;
+
+}

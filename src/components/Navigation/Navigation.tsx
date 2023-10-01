@@ -13,7 +13,7 @@ const Navigation = ({textBlack}:NavigationProps) => {
             <Logo black={textBlack}/>
             <div className={styles.navItemsWrapper}>
                 {navItems.map((item:NavItem, index)=>(
-                    <span  key={index}>{item.name}</span>
+                    <span  style={{color: textBlack ? "black" :"white"}} key={index}>{item.name}</span>
                 ))}
             </div>
             <div className={styles.options}>

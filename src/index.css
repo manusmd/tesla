@@ -1,10 +1,39 @@
-:root {
-  font-family: "GothamMedium", system-ui, Avenir, Helvetica, Arial, sans-serif;
+html {
+  box-sizing: border-box;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+:root {
+  font-family: "GothamBook", system-ui, Avenir, Helvetica, Arial, sans-serif;
+margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: local("GothamBook"), url("./fonts/GothamBook.ttf") format("truetype");
+  font-weight: normal;
 }
 
 @font-face {
   font-family: "GothamMedium";
-  src: local("GothamMedium"), url("./fonts/GothamMedium.ttf") format("truetype");
-  font-weight: normal;
+    src: local("GothamMedium"), url("./fonts/GothamMedium.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamLight";
+    src: local("GothamLight"), url("./fonts/GothamLight.ttf") format("truetype");
+    font-weight: normal;
 }
