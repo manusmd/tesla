@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import './fonts/GothamBook.ttf'
-import './fonts/GothamLight.ttf'
-import './fonts/GothamMedium.ttf'
+import './fonts/GothamBookRegular.otf'
+import './fonts/GothamLight.otf'
+import './fonts/GothamMediumRegular.ttf'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

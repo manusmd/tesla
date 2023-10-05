@@ -1,39 +1,39 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 
 :root {
-  font-family: "GothamBook", system-ui, Avenir, Helvetica, Arial, sans-serif;
-margin: 0;
-  padding: 0;
+    font-family: "GothamBook", system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-}
-
-@font-face {
-  font-family: "GothamBook";
-  src: local("GothamBook"), url("./fonts/GothamBook.ttf") format("truetype");
-  font-weight: normal;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
-  font-family: "GothamMedium";
-    src: local("GothamMedium"), url("./fonts/GothamMedium.ttf") format("truetype");
+    font-family: "GothamBook";
+    src: local("GothamBook"), url("./fonts/GothamBookRegular.otf") format("truetype");
     font-weight: normal;
 }
 
 @font-face {
-  font-family: "GothamLight";
-    src: local("GothamLight"), url("./fonts/GothamLight.ttf") format("truetype");
+    font-family: "GothamMedium";
+    src: local("GothamMedium"), url("./fonts/GothamMediumRegular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamLight";
+    src: local("GothamLight"), url("./fonts/GothamLight.otf") format("truetype");
     font-weight: normal;
 }
