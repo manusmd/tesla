@@ -4,12 +4,14 @@ import {NavItem, navItems} from "./navItems.ts";
 import Question from "../Svg/Question.tsx";
 import World from "../Svg/World.tsx";
 import Account from "../Svg/Account.tsx";
-type NavigationProps = {
-    textBlack?: boolean
+
+type NavigationProps ={
+    textBlack?: boolean,
 }
+
 const Navigation = ({textBlack}:NavigationProps) => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} >
             <Logo black={textBlack}/>
             <div className={styles.navItemsWrapper}>
                 {navItems.map((item:NavItem, index)=>(
